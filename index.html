@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--CSS Link-->    
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Code|Karla:700&display=swap" rel="stylesheet">
+
+    <title>root</title>
+  </head>
+  <body>
+
+    <!--Navbar-->
+    <section id="navbar">
+        <nav id="mainNavbar" class="navbar navbar-custom navbar-expand-md fixed-top">
+            <div class="container-fluid">
+                <!-- <a href="#" class="navbar-brand">split</a> -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" width="auto" height="45" class="d-inline-block align-top mr-2" alt="Split Icon">
+                
+                    </a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navLinks">
+                    <ul class="navbar-nav">
+                    <li class="navbar-item">
+                        <a href="index.html" class="nav-link">home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="about.html" class="nav-link">about</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="about.html" class="nav-link">contact</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" id="loginButton" class="nav-link" data-toggle="modal" data-target="#exampleModal">download</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>    
+        </nav>
+    </section>
+
+    <!--Jumbotron-->
+    <section id="jumbotron" class="pt-5">
+        <div id="jumboContFluid" class="container-fluid pt-5">
+            <div id="jumboContainer" class="container p-5">
+                <div id="sectionsRow" class="row text-white">
+                    <div id="headerLeft" class="col-md-5 pt-5">
+                        <h1 class="display-2">
+                            <span id="r">r</span><span id="o">o</span><span id="o2">o</span><span id="t">t</span><span id="period">.</span>
+                        </h1>
+                        <h3>Connecting real people</h3>
+                        <hr class="w-75 ml-0">
+                        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                        <div id="appLinkButtons">
+                            <a href="https://xd.adobe.com/view/e526ed50-fb2c-4775-5cdc-1e20325f6b10-9317/" target="_blank"><button id="appLink" type="button" class="btn btn-primary btn-lg">View the App</button></a>
+                            <a href="" data-target="_blank"><button id="updatesLink" type="button" class="btn btn-outline-primary btn-lg">Get Updates</button></a>
+                        </div>
+                    </div>             
+                    <div id="headerRight" class="col-md-7 d-flex justify-content-center align-items-center">
+                        <img class="img-fluid" width="750" height="auto" src="images/people.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Down Arrow-->
+    <section id="downArrow">
+        <div class="container">
+            <div class="row pb-4">
+                <div class="col-12 text-center">
+                    <i id="fontAwesomeRed" class="fas fa-sort-down"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carousel Three Steps -->
+    <section id="carouselThreeSteps">
+        <div id="carouselExampleIndicators" class="carousel slide" data-interval="false" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+            <!-- Step 1-->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div id="stepOne" class="col-12 px-0 d-flex align-items-center">
+                            <div class="container py-5">
+                                <div class="py-3">
+                                    <h6 id="step1" class="d-inline p-2 pr-4">Step 1:</h6>
+                                </div>
+                                <div class="row py-4">
+                                    <div class="col-5">
+                                        <div id="stepOneContent" class="pl-5">
+                                            <h2>Think of any topic you'd want to discuss with others.</h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-7">
+                                        <div id="stepOneImage" class="text-center pb-2">
+                                            <img class="img-fluid" width="400" height="auto" src="images/search.dark.png">
+                                        </div>
+                                        <div id="stepOneImageCaption">
+                                            <p class="small px-5 py-2">e.g. Searching for an upcoming concert you're attending would look something linke this.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr id="section1border" class="mb-0 pb-0">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- Step 2 -->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div id="stepTwo" class="col-12 px-0">
+                            <div class="container py-5">
+                                <div class="pt-3 ml-auto">
+                                        <h6 id="step2" class="d-inline p-2 pr-4">Step 2:</h6>
+                                    </div>
+                                <div class="row pb-4">
+                                    <div class="col-5 d-flex align-items-center">
+                                        <div id="stepTwoContent" class="pl-5">
+                                            <h2>Once you find a group - get involved.</h2>
+                                            <div id="stepOneBullets" class="pb-3 pl-3">
+                                                <p class="mb-0">Share experiences</p>
+                                                <p class="mb-0">Share content</p>
+                                                <p class="mb-0">Get information</p>
+                                                <p class="mb-0">Ask questions</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-7">
+                                            <img class="img-fluid" width="750" height="auto" src="images/step2screens.png">
+                                    </div>
+                                </div>
+                                <hr id="section2border" class="mb-0 pb-0">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- Step 3 -->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div id="stepThree" class="col-12 px-0">
+                            <div class="container py-5">
+                                <div class="py-3 ml-auto">
+                                    <h6 id="step3" class="d-inline p-2 pr-4">Step 3:</h6>
+                                </div>
+                                <div class="row py-4">
+                                    <div class="col-4 d-flex align-items-center">
+                                        <div id="stepThreeContent" class="pl-4">
+                                            <h1>Discover other groups.</h1>
+                                            <div id="stepOneBullets" class="pb-3 pl-3">
+                                                <p class="mb-0">Browse 'Popular Groups' or use the 'Discover' page to find groups you might be interested in</p>
+                                            </div>
+                                            <div id="stepThreeImageCaption">
+                                                <p class="small py-2">e.g. Searching for a U.S. Womens Soccer fan page would look something linke this.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-8">
+                                        <div id="stepThreeImage" class="text-center pb-2">
+                                            <img class="img-fluid" width="auto" height="auto" src="images/discover.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr id="section3border" class="mb-0 pb-0">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            </div>
+    </section>
+
+    
+    <!-- Finding Groups -->
+    <section id="findingGroups">
+        <div class="container-fluid py-5">
+            <div id="findingGroupsTitle" class="pl-5">
+                <h1>Finding Groups.</h1>
+                <p class="lead">The colors of each 'keyword' help you find a specific group</p>
+            </div>
+            <div class="row p-3 d-flex justify-content-center">
+                <div id="blueCard" class="col-md-3 d-flex justify-content-center align-items-center m-2 p-4">
+                    <div id="blueCardContent">
+                        <h1 id="blueHeader">Blue = category</h1>
+                        <p class="lead">If a word is in blue, or contains a blue background, it signifies a categroy. One group can have multiple categories, called sub-categories</p>
+                        <p class="">If you wanted to search for your favorite sports team, the categories would be: 1. Sports, 2. NFL, 3. Cleveland Browns</p>
+                    </div>
+                </div>
+                <div id="redCard" class="col-md-3 d-flex justify-content-center align-items-center m-2 p-4">
+                    <div id="blueCardContent">
+                        <h1 id="redHeader">Red = location</h1>
+                        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe possimus praesentium qui odit harum maxime?</p>
+                    </div>
+                </div>
+                <div id="yellowCard" class="col-md-3 d-flex justify-content-center align-items-center m-2 p-4">
+                    <div id="blueCardContent">
+                        <h1 id="yellowHeader">Yellow = date</h1>
+                        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe possimus praesentium qui odit harum maxime?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="container-fluid pt-5">
+            <div class="row">
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-6">
+                            <p id="footerHeader">Our Product</p>
+                            <p>How it Works</p>
+                            <p>About Us</p>
+                            <p>User Cases</p>
+                        </div>
+                        <div class="col-6">
+                            <p id="footerHeader">Our Company</p>
+                            <p>Our Team</p>
+                            <p>Contact</p>
+                            <p>Legal</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+
+                </div>
+                <div class="col-md-3">
+
+                </div>
+            </div>
+            <div id="footerFooter" class="row">
+                <div class="col-12 px-5 d-flex justify-content-end">
+                    <p id="footerHeader">Blind Squirrel Labs, LLC</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,272 @@
+/* 
+/*
+font-family: 'Fira Code', monospace;
+font-family: 'Karla', sans-serif;
+*/
+
+/* Universal*/
+body {
+    background: #ffffff;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Karla', sans-serif; 
+}
+p {
+    font-family: 'Fira Code', monospace;
+}
+#fontAwesomeRed {
+    color: #DB4437;
+    font-size: 4rem;
+}
+#fontAwesomeRed:hover {
+    color: #F4B400;
+    transform: scale(1.2);
+    /* font-size: 5rem; */
+}
+    /* Header colors */
+    #blueHeader {
+        color: #4285F4
+    }
+    #redHeader {
+        color: #DB4437;
+    }
+    #yellowHeader {
+        color: #F4B400;
+    }
+    #greenHeader {
+        color: #0F9D58;
+    }
+
+/* Navbar CSS*/
+.navbar-custom {
+    color: #4285F4;
+    background: #ffffff;
+}
+.navbar-custom a {
+    color: #DB4437;
+}
+.navbar-custom a:hover {
+    color: #F4B400;
+}
+
+/* Jumbotron CSS*/
+#jumboContFluid {
+    background: #ffffff;
+}
+#jumboContainer {
+    background: #4285F4;
+    min-height: 500px;
+}
+#sectionsRow {
+    min-height: 500px;
+}
+#headerRight {
+    color: #4285F4;
+}
+/* Root letter color change */
+#r:hover {
+    color: #4285F4;
+    background: #ffffff;
+}
+#o:hover {
+    color: #DB4437;
+    background: #ffffff;
+}
+#o2:hover {
+    color: #F4B400;
+    background: #ffffff;
+}
+#t:hover {
+    color: #0F9D58;
+    background: #ffffff;
+}
+/* Period color change */
+    #period:hover {
+        animation: colorchange 50s; /* animation-name followed by duration in seconds*/
+        /* you could also use milliseconds (ms) or something like 2.5s */
+        -webkit-animation: colorchange 5s; /* Chrome and Safari */
+    }
+
+    @keyframes colorchange
+    {
+        0%   {background: #ffffff;}
+        25%  {background: #4285F4;}
+        50%  {background: #DB4437;}
+        75%  {background: #F4B400;}
+        100% {background: #0F9D58;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+        0%   {background: #ffffff;}
+        25%  {background: #4285F4;}
+        50%  {background: #DB4437;}
+        75%  {background: #F4B400;}
+        100% {background: #0F9D58;}
+    }
+hr {
+    border: 2px solid #ffffff;
+}
+/* Jumbo Buttons Link */
+#appLink {
+    color: #ffffff;
+    background: #DB4437;
+    border: 2px solid #DB4437;
+}
+#appLink:hover {
+    background: #ffffff;
+    color: #DB4437;
+    border: 2px solid #DB4437;
+}
+#updatesLink {
+    color: #ffffff;
+    background: #F4B400;
+    border: 2px solid #F4B400;
+}
+#updatesLink:hover {
+    background: #ffffff;
+    color: #F4B400;
+    border: 2px solid #F4B400;
+}
+
+/* Steps Seciton*/
+
+  /* Three Steps Container */
+  /* Carousel */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    background-image: none;
+  }
+  
+  .carousel-control-next-icon:after
+  {
+    content: '>';
+    font-size: 55px;
+    color: #DB4437;
+  }
+  
+  .carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: #DB4437;
+  }
+
+/* Carousel Indicators */
+.carousel-indicators li {
+    background-color: #0F9D58;
+}
+
+/* Carousel Height */
+
+  /* #threeSteps hr {
+      border: #4285F4 solid 1.5px;
+  } */
+  #section1border {
+      border: #4285F4 solid 1.5px;
+  }
+  #section2border {
+    border: #DB4437 solid 1.5px;
+  }
+  #section3border {
+    border: #F4B400 solid 1.5px;
+  }
+
+  /* Step One */
+  #threeSteps {
+      background: #fafafa;
+  }
+  #stepOne {
+      background: #fafafa;
+      color: #4285F4;
+      min-height: 750px;
+  }
+  #stepOne h6 {
+      background: #DB4437;
+      color: #ffffff;
+  }
+  /* Step Two */
+  #stepTwo {
+      background: #fafafa;
+      color: #DB4437;
+      min-height: 750px;
+  }
+  #stepTwo h6 {
+      background: #F4B400;
+      color: #ffffff;
+  }
+  /* Step Three */
+  #stepThree {
+      background: #fafafa;
+      color: #F4B400;
+      min-height: 750px;
+  }
+  #stepThree h6 {
+      background: #0F9D58;
+      color: #ffffff;
+  }
+
+  /* Finding Groups */
+
+  /* Blue Card */
+  #blueCard {
+      background-color: #fafafafa;
+      /* border: #4285F4 solid 2px;
+      border-radius: 10px; */
+  }
+  /* Red Card */
+  #redCard {
+    background-color: #fafafafa;
+      /* border: #DB4437 solid 2px;
+      border-radius: 10px; */
+  }
+  /* Yellow Card */
+  #yellowCard {
+    background-color: #fafafafa;    
+      /* border: #F4B400 solid 2px;
+      border-radius: 10px; */
+  }
+
+  /* Hover Cards*/
+  #blueCard:hover {
+      /* border: #4285F4 solid 2px;
+      border-radius: 10px;
+      background: #4285F4; */
+      color: #4285F4;
+  }
+  #redCard:hover {
+      /* border: #DB4437 solid 2px;
+      border-radius: 10px;
+      background: #DB4437; */
+      color: #DB4437;
+  }
+  #yellowCard:hover {
+      /* border: #F4B400 solid 2px;
+      border-radius: 10px;
+      background: #F4B400; */
+      color: #F4B400;
+  }
+  /* #blueHeader:hover {
+      color: #ffffff;
+  } */
+
+  /* Footer */
+  #footer {
+      color: #4D4D4D;
+      background-color: #fafafa;
+  }
+  #footer p {
+    font-size: .9rem;
+  }
+  #footer hr {
+    border: solid #4d4d4d 1px;
+  }
+  #footerHeader {
+      font-weight: bold;
+  }
+  #footerHr {
+      border: solid #4D4D4D 1.5px;
+  }
