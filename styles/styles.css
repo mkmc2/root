@@ -253,6 +253,30 @@ hr {
       color: #ffffff;
   } */
 
+
+  /* Finding Groups */
+  #categoryPathBlue {
+      background-color: #4285F4;
+      border-radius: 50px;
+      color: #ffffff;
+      padding-left: 5px;
+      padding-right: 5px;
+  }
+  #categoryPathRed {
+      background-color: #DB4437;
+      border-radius: 50px;
+      color: #ffffff;
+      padding-left: 5px;
+      padding-right: 5px;
+  }
+  #categoryPathYellow {
+      background-color: #F4B400;
+      border-radius: 50px;
+      color: #ffffff;
+      padding-left: 5px;
+      padding-right: 5px;
+  }
+
   /* Footer */
   #footer {
       color: #4D4D4D;
